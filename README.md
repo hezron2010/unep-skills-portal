@@ -1,36 +1,28 @@
 # Skills Portal
-A web-based portal to manage staff technical skills, streamline rostering, and generate reports.
 
-## Table of Contents
-- [About](#about)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
-## About
-This portal helps organizations track staff skills, update profiles, and generate insightful reports for HR and management.  
-Staff can update personal details, log skills, and managers can generate reports to plan training and assignments.
+This repository contains the **Skills Portal** application for managing staff technical skills, rostering, and reporting.
 
 ## Features
-- Staff registration and profile management
-- Skill tracking per staff member
-- Rostering assistance
-- Reporting dashboard for skills and staff availability
 
-## Installation
-Follow these steps to run the project locally:
+- Staff registration and profile management  
+- Skill tracking and reporting  
+- Simple staff form for personal information input
 
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/skills-portal.git
+## Staff Form Fields
 
-# Navigate into the project folder
-cd skills-portal
+The staff form collects the following information:
 
-# Install dependencies
-npm install      # For Node.js projects
-# or
-pip install -r requirements.txt  # For Python projects
+| Field Name                   | Description                          |
+|-------------------------------|--------------------------------------|
+| **Index Number**             | Unique staff identification number   |
+| **Full Names**               | First name(s) and surname            |
+| **Email Address**            | Official email of the staff          |
+| **Current Location**         | City, branch, or work location       |
+| **Highest Level of Education** | e.g., Diploma, Bachelor, Master    |
+
+## Setup & Run Locally
+
+1. **Clone the repository:**  
+   ```bash
+   git clone https://github.com/your-username/your-repo.git
+   cd your-repo
