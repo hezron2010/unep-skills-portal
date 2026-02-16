@@ -20,9 +20,16 @@ The staff form collects the following information:
 | **Current Location**         | City, branch, or work location       |
 | **Highest Level of Education** | e.g., Diploma, Bachelor, Master    |
 
-## Setup & Run Locally
+### Form Mockup
 
-1. **Clone the repository:**  
-   ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
+Here’s how the staff form will appear:
+
+| Index Number | Full Names        | Email Address        | Current Location | Highest Level of Education |
+|--------------|-----------------|--------------------|-----------------|---------------------------|
+| 001          | John Doe         | john@example.com   | Nairobi         | Bachelor                 |
+| 002          | Jane Smith       | jane@example.com   | Mombasa         | Diploma                  |
+| 003          | Michael Mwangi   | michael@example.com| Kisumu          | Master                   |
+
+> 💡 This is a sample layout. In the app, staff will fill the form online and submit their details.
+
+
