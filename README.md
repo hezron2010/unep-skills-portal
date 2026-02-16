@@ -1,35 +1,38 @@
-# Skills Portal
+# UNEP Staff Technical Skills Portal
 
-This repository contains the **Skills Portal** application for managing staff technical skills, rostering, and reporting.
+## Project Description
+This system allows UNEP to manage staff technical skills, education levels, duty stations, and reporting for rostering and workforce planning.
 
-## Features
+## Technologies Used
+- PHP
+- MySQL
+- HTML
+- WAMP Server
 
-- Staff registration and profile management  
-- Skill tracking and reporting  
-- Simple staff form for personal information input
+## System Features
+- Admin Login
+- Add, Edit, Delete Staff
+- Search Staff
+- Manage Education Levels
+- Manage Duty Stations
+- Manage Software Expertise
+- Manage Languages
+- Relational Database Design
 
-## Staff Form Fields
+## Setup Instructions
 
-The staff form collects the following information:
+1. Install WAMP Server
+2. Place project folder inside:
+   C:\wamp64\www\
+3. Start WAMP (ensure green icon)
+4. Open phpMyAdmin
+5. Import database:
+   - Go to Import
+   - Select sql/unep_skills_portal.sql
+6. Open browser:
+   http://localhost/unep_skills_portal
 
-| Field Name                   | Description                          |
-|-------------------------------|--------------------------------------|
-| **Index Number**             | Unique staff identification number   |
-| **Full Names**               | First name(s) and surname            |
-| **Email Address**            | Official email of the staff          |
-| **Current Location**         | City, branch, or work location       |
-| **Highest Level of Education** | e.g., Diploma, Bachelor, Master    |
+## Login Credentials
 
-### Form Mockup
-
-Here’s how the staff form will appear:
-
-| Index Number | Full Names        | Email Address        | Current Location | Highest Level of Education |
-|--------------|-----------------|--------------------|-----------------|---------------------------|
-| 001          | John Doe         | john@example.com   | Nairobi         | Bachelor                 |
-| 002          | Jane Smith       | jane@example.com   | Mombasa         | Diploma                  |
-| 003          | Michael Mwangi   | michael@example.com| Kisumu          | Master                   |
-
-> 💡 This is a sample layout. In the app, staff will fill the form online and submit their details.
-
-
+Username: admin
+Password: Admin@123
