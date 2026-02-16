@@ -1,0 +1,30 @@
+@model Staff
+
+<form asp-action="Create">
+    <div>
+        <label>Index Number</label>
+        <input asp-for="IndexNumber" />
+    </div>
+
+    <div>
+        <label>Full Names</label>
+        <input asp-for="FullNames" />
+    </div>
+
+    <div>
+        <label>Email</label>
+        <input asp-for="Email" />
+    </div>
+
+    <div>
+        <label>Current Location</label>
+        <input asp-for="CurrentLocation" />
+    </div>
+
+    <div>
+        <label>Remote Availability</label>
+        <input asp-for="RemoteAvailability" type="checkbox" />
+    </div>
+
+    <button type="submit">Save</button>
+</form>
